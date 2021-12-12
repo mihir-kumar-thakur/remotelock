@@ -7,8 +7,8 @@ RSpec.describe 'App Functional Test' do
   describe 'dollar and percent formats sorted by first_name' do
     let(:params) do
       {
-        dollar_format: File.read('spec/fixtures/people_by_dollar.txt'),
-        percent_format: File.read('spec/fixtures/people_by_percent.txt'),
+        dollar_format: 'spec/fixtures/people_by_dollar.txt',
+        percent_format: 'spec/fixtures/people_by_percent.txt',
         order: :first_name,
       }
     end
