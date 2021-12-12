@@ -27,5 +27,5 @@ class PeopleController
   end
 end
 
-# p PeopleController.new({dollar_format: 'spec/fixtures/people_by_dollar.txt', percent_format: 'spec/fixtures/people_by_percent.txt', order: :first_name}).normalize ==
+# p PeopleController.new({dollar_format: 'spec/fixtures/people_by_dollar.txt', percent_format: 'spec/fixtures/people_by_percent.txt', order: :first_name}).normalize
 
